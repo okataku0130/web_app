@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(node server.js)",
+      "Bash(curl -s http://localhost:3000/api/todos)",
+      "Bash(curl -s -X POST http://localhost:3000/api/todos -H \"Content-Type: application/json\" -d '{\"text\":\"テストタスク\"}')",
+      "Bash(curl -s -X PATCH http://localhost:3000/api/todos/1)",
+      "Bash(curl -s -X DELETE http://localhost:3000/api/todos/1)"
+    ]
+  }
+}
